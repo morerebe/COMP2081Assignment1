@@ -1,0 +1,88 @@
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #000000;
+  color: #e5e4e1;
+}
+
+.container {
+  width: 90%;
+}
+
+#nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#nav li {
+  display: inline;
+}
+#nav a {
+  display: inline-block;
+  padding: 10px;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 800;
+  font-size: 45px;
+}
+
+h2,
+h4,
+button {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 800;
+}
+
+.btn:hover {
+  color: #539987;
+}
+
+h4 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+a {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #e5e4e1;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #539987;
+}
+
+#aboutimg {
+  max-width: 100%;
+}
+
+#contactimg {
+  max-width: 100%;
+}
+
+header {
+  min-height: 500px;
+  background-image: url("https://previews.dropbox.com/p/thumb/AA8jbUfIiEFQKqEIn-ZzIDHr42RGPAxi9jgf0CWBq14P7_MOE0__flrr5Cji8-UPkgg4BXxIlf0IzPs7NW9n_E6snQtuRsmw1vrHzGPBi3OfVC3i3TPNz688za7oiGrA04Vm_BrELmpb03nxySJI9w9_Vw8h8bvoqYnhWn9OZkMSfFXpM4iw9bvrdzauJQoE0hg6QKfxg3sxGDd4-utZ_3kScqMpE1cX29VL8H6QIpqSCr2nmJZVF5d3gvN45Rc5a1BaI_5TPvNyBljso96-jqQU5TVLGXWzQyr9-28AgxGQd6_528HxVEqHTwW9fx4EJfTrnWT3akAx8aFdZsmLkaLSzSvPcZqKhTalkOb6X6sgMA/p.png?size=2048x1536&size_mode=3");
+  /*header image that covers the entire element*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+.row {
+  padding-top: 70px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
